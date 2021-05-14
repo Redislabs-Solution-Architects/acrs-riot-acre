@@ -15,21 +15,3 @@ variable "location" {
   description = "The Azure region where all resources in this example should be created"
   default     = "centralus"
 }
-
-variable "client_id" {
-  description = "Service Principal to use (az ad sp create-for-rbac ...)"
-  sensitive   = true
-}
-
-variable "client_secret" {
-  description = "Client Secret for Service Principal"
-  sensitive   = true
-}
-
-variable "subscription_id" {
-  type = string
-}
-
-variable "tenant_id" {
-  type = string
-}
