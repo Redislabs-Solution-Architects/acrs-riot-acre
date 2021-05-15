@@ -38,6 +38,8 @@ module "application" {
 
   azure_redis_host     = module.redis.azure_redis_host
   azure_redis_password = module.redis.azure_redis_password
+  acre_host            = module.acre.acre_host
+  acre_password        = module.acre.acre_primaryKey
 }
 
 module "redis" {
