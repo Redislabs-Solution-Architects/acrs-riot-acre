@@ -9,6 +9,7 @@ output "acrs_hostname" {
 
 output "acrs_password" {
   value = module.redis.azure_redis_password
+  sensitive = true
 }
 
 output "acre_hostname" {
@@ -17,4 +18,5 @@ output "acre_hostname" {
 
 output "acre_password" {
   value = module.acre.acre_primaryKey
+  sensitive = true
 }
