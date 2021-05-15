@@ -8,5 +8,4 @@ RUN wget https://github.com/redis-developer/riot/releases/download/v${VERSION}/r
 RUN unzip riot-redis-${VERSION}.zip
 WORKDIR /riot-redis-${VERSION}/bin/
 
-CMD ["sh", "-c", "./riot-redis"]
-#ENTRYPOINT ["sh", "-c", "./riot-redis", "-h", "echo $REDIS_HOST", "-p", "echo $REDIS_PORT"]
+ENTRYPOINT ["sh", "-c", "./riot-redis", "-h", "echo $REDIS_HOST", "-p", "echo $REDIS_PORT", "-a", "echo $REDIS_PASSWORD", "replicate-ds", "-h", "echo $ACRE_HOST", "-p", "echo $ACRE_PORT", "-a", "echo $ACRE_PASSWORD"]

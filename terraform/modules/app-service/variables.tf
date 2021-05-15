@@ -28,3 +28,13 @@ variable "azure_redis_password" {
   type        = string
   description = "The Azure Cache for Redis password"
 }
+
+variable "acre_host" {
+  type        = string
+  description = "The Azure Cache for Redis hostname"
+}
+
+variable "acre_password" {
+  type        = string
+  description = "The Azure Cache for Redis password"
+}

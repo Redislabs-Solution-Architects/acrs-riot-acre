@@ -5,11 +5,11 @@ locals {
 }
 
 resource "azurerm_container_registry" "container-registry" {
-  name                     = "acr${local.azure-container-registry-name}001"
-  resource_group_name      = var.resource_group
-  location                 = var.location
-  admin_enabled            = true
-  sku                      = "Basic"
+  name                = "acr${local.azure-container-registry-name}001"
+  resource_group_name = var.resource_group
+  location            = var.location
+  admin_enabled       = true
+  sku                 = "Basic"
 
   tags = {
     "environment" = var.environment
@@ -62,8 +62,12 @@ resource "azurerm_app_service" "application" {
 
     # These are app specific environment variables
 
-    "REDIS_HOST"          = var.azure_redis_host
-    "REDIS_PASSWORD"      = var.azure_redis_password
-    "REDIS_PORT"          = "6380"
+    "REDIS_HOST"     = var.azure_redis_host
+    "REDIS_PASSWORD" = var.azure_redis_password
+    "REDIS_PORT"     = "6380"
+
+    "ACRE_HOST"     = var.acre_host
+    "ACRE_PASSWORD" = var.acre_password
+    "ACRE_PORT"     = "10000"
   }
 }
