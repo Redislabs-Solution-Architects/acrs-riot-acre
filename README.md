@@ -167,13 +167,13 @@ Project Link: [https://github.com/redisgeek/acrs-riot-acre](https://github.com/r
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/redisgeek/repo.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/redisgeek/acrs-riot-acre.svg?style=for-the-badge
 [contributors-url]: https://github.com/redisgeek/acrs-riot-acre/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/redisgeek/repo.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/redisgeek/acrs-riot-acre.svg?style=for-the-badge
 [forks-url]: https://github.com/redisgeek/acrs-riot-acre/network/members
-[stars-shield]: https://img.shields.io/github/stars/redisgeek/repo.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/redisgeek/acrs-riot-acre.svg?style=for-the-badge
 [stars-url]: https://github.com/redisgeek/acrs-riot-acre/stargazers
-[issues-shield]: https://img.shields.io/github/issues/redisgeek/repo.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/redisgeek/acrs-riot-acre.svg?style=for-the-badge
 [issues-url]: https://github.com/redisgeek/acrs-riot-acre/issues
-[license-shield]: https://img.shields.io/github/license/redisgeek/repo.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/redisgeek/acrs-riot-acre.svg?style=for-the-badge
 [license-url]: https://github.com/redisgeek/acrs-riot-acre/blob/master/LICENSE.txt
