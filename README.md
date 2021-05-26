@@ -20,13 +20,13 @@
 <br />
 <p align="center">
   <a href="https://github.com/redisgeek/acrs-riot-acre">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/redis-icon.svg" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">ACRS to ACRE with RIOT</h3>
 
   <p align="center">
-    Azure Cache for Redis Standard to Azure Cache for Redis Enterprise with RIOT
+    Azure Cache for Redis, Standard, to Azure Cache for Redis, Enterprise, with RIOT
     <br />
     <a href="https://github.com/redisgeek/acrs-riot-acre"><strong>Explore the docs »</strong></a>
     <br />
