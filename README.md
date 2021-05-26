@@ -21,6 +21,7 @@
   <a href="https://github.com/redisgeek/acrs-riot-acre">
     <img src="images/redis-icon.svg" alt="Logo" width="80" height="80">
   </a>
+</p>
 
 <h3 align="center">ACRS to ACRE with RIOT</h3>
 
@@ -36,7 +37,6 @@
     ·
     <a href="https://github.com/redisgeek/acrs-riot-acre/issues">Request Feature</a>
   </p>
-</p>
 
 
 
@@ -72,11 +72,6 @@
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`redisgeek`, `acrs-riot-acre`, `dashaun`, `dashaun@redislabs.com`, `ACRS to ACRE with RIOT`, `Azure Cache for Redis Standard to Azure Cache for Redis Enterprise with RIOT`
-
 
 ### Built With
 
@@ -128,14 +123,7 @@ See the [open issues](https://github.com/redisgeek/acrs-riot-acre/issues) for a 
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
+Pull-requests are welcomed!
 
 
 <!-- LICENSE -->
@@ -148,10 +136,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@dashaun](https://twitter.com/dashaun) - dashaun@redislabs.com
+DaShaun - [@dashaun](https://twitter.com/dashaun)
 
 Project Link: [https://github.com/redisgeek/acrs-riot-acre](https://github.com/redisgeek/acrs-riot-acre)
-
 
 
 <!-- ACKNOWLEDGEMENTS -->
